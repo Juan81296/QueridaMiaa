@@ -1,0 +1,65 @@
+div.bikinis-container{
+  display: grid;
+  grid-template-columns:1fr;
+  background: #466b50;
+  padding: 30px 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+div.bikinis-container h2{
+  color: #a8a8a8;
+  font-size: 3em;
+}
+div.bikinis-container h3,h2.cantidad{
+  color:#eeeee7;
+  font-size: 3em;
+}
+.bikini-buttons{
+  font-size: 1.2em;
+  border-radius: 8px;
+  border: #eeeee7;
+  font-family: 'Dancing Script', cursive;
+  background: #5e8a88;
+  color: white;
+  margin-top: 10px;
+}
+.bikini-imagenes{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.bikini-imagenes img{
+  width: 50%;
+  height: 50%;
+  transition: 300ms;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+}
+.bikini-imagenes img:hover{
+  width: 100%;
+}
+h4.name{
+  text-align: left;
+  color: #a8a8a8;
+  font-size: 2rem;
+  margin: 0;
+}
+h5.price{
+  text-align: left;
+  color: #a8a8a8;
+  margin-bottom: 100px;
+  margin: 0;
+}
+article{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width:1550px) {
+  article{
+    display: inline-block;
+  }
+  .bikini-imagenes img{
+    width: 100%;
+  }
+}
